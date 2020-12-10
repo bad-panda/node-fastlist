@@ -1,0 +1,26 @@
+{
+  "name": "@gifyourgame/fastlist",
+  "version": "0.1.3",
+  "description": "NodeJS DDC/CI library",
+  "main": "index.js",
+  "author": "Matt Hensman <@matt.tf>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bad-panda/node-fastlist/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bad-panda/node-fastlist.git"
+  },
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^2.0.0"
+  },
+  "types": "index.d.ts",
+  "scripts": {
+    "install": "node-gyp rebuild"
+  },
+  "gypfile": true,
+  "homepage": "https://github.com/bad-panda/node-fastlist#readme",
+  "keywords": []
+}
