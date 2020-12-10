@@ -5,8 +5,8 @@
 gyg-fastlist is currently only supported on Windows.
 
 ````bash
-npm install git+https://github.com/bad-panda/gyg-display-node-module.git
-yarn add https://github.com/bad-panda/gyg-display-node-module.git
+npm install git+https://github.com/bad-panda/node-fastlist.git
+yarn add https://github.com/bad-panda/node-fastlist.git
 ````
 
 ## Usage
@@ -26,5 +26,5 @@ for (const process of fastlist.getProcessList()) {
   * #### Return value
     An array of json dumped `String` containing the process name, PID, and parent PID.
     Ex.
-    `{"name":"winlogon.exe","parentPid":772,"pid":944}
+    `{"name":"winlogon.exe","parentPid":772,"pid":944},
      {"name":"wlanext.exe","parentPid":684,"pid":5424}`
